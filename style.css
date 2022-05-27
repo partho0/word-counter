@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    padding: 0;
+    background: #021624;
 }
 
 .container,
@@ -15,13 +17,14 @@ body {
     border: 1px solid #cccccc;
     border-radius: 10px;
     line-height: 1.4;
-    background-color: rgb(234, 245, 245);
+    background-color: #0c89e2;
 }
 
 .title {
     margin-top: 0;
     margin-bottom: 25px;
     font-size: 2.6em;
+    color: rgb(235, 236, 236);
 }
 
 .text-input {
@@ -31,4 +34,6 @@ body {
     resize: none;
     padding: 10px;
     box-sizing: border-box;
+    background-color: rgb(235, 236, 236);
+    color: rgb(0, 0, 0);
 }
